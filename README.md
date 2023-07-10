@@ -8,6 +8,7 @@
 To build this application I had to use express framework along with googleapis, googlecloud localauth modules and built it and deployed it using node.js. With the help of Gmail API provided by google cloud console I was able to get the access to the editing and reading rights of any mail id who avail the service of the app. I then had to generate oAuth2 credentials and with the help of that credentials I was able to make the API call. Once that was done we just had to seperate the undread mail after reading mailbox and tagging them into a different label and reply to all the senders.
 
 <h2>Key Features</h2>
+
 - The app identifies and isolate the email threads in which no prior email has been sent by you.
 - It then sends appropriate reply to the sender that can be decided by us.
 - After sending the reply, the email is tagged with a label in Gmail.
