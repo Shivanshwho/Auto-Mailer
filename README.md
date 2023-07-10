@@ -5,7 +5,7 @@
    This a Node.js based app that is able to respond to emails sent to your Gmail mailbox while you don't have an access to your email or you are unavailable to respond.
 </h4>
 <h2>Method</h2>
-To build this application had to use express library along with googleapis and gaoogleauth library and built and deployed it using node.js. With the help of Gmail API provided by google cloud console I was able to get the access to the editing and reading rights of any mail id who avail the service of the app. I then had to generate oAuth2 credentials and with the help of that credentials I was able to make the API call. Once that was done we just had to seperate the undread mail after reading mailbox and tagging them into a different label and reply to all the senders.
+To build this application I had to use express library along with googleapis and gaooglecloud localauth modules and built it and deployed it using node.js. With the help of Gmail API provided by google cloud console I was able to get the access to the editing and reading rights of any mail id who avail the service of the app. I then had to generate oAuth2 credentials and with the help of that credentials I was able to make the API call. Once that was done we just had to seperate the undread mail after reading mailbox and tagging them into a different label and reply to all the senders.
 
 <h2>Key Features</h2>
 - The app identifies and isolate the email threads in which no prior email has been sent by you.
@@ -15,6 +15,12 @@ To build this application had to use express library along with googleapis and g
 ## 📲 To run this project
 
 - Clone(fork) this repository
-- open in a code editor preferably VsCode.
-- put the command (npm install) to install any missed dependency
+- Open the Project Directory in a code editor preferably VsCode.
+- Enter the below commands one by one
+- npm install (to install any missed dependency)
+- npm install express
+- npm install googleapis
+- npm install @google-cloud/local-auth
+- npm install nodemon
+- npm run dev (To finally run the project)
 - Wait for few seconds, it will start running on your local machine.
