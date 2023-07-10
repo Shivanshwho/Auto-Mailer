@@ -37,7 +37,7 @@ To build this application I had to use express framework along with googleapis, 
 
 ## Scope of improvement
 
-- In the app we can build a model such that it cataregorizes the email with the help of its content and give a personalized response, which would Ideally take a machhine learning model.
+- In the app we can build a model such that it cataregorizes the email with the help of its content and give a personalized response, which would Ideally take a machhine learning classification based model.
 
 ## 💥 How to Contribute?
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
